@@ -1,0 +1,22 @@
+public class Student{
+    private String name;
+    private int age;
+
+    Student(){
+        //this is default constructure
+        system.out.println("this is default constructure");
+        name = "Student Name";
+        age = 18;
+
+    }
+
+    Student(String n, int a){
+        name = n;
+        age = a;
+    }
+
+    public void setName(String n){
+        name = n;
+    }
+
+}
