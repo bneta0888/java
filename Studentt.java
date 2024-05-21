@@ -1,11 +1,12 @@
 public class Studentt {
 
-    private String name;
+    private String name;//instance variable
     private int age;
     private int rollNo;
     
 
     public Studentt(String name, int age, int rollNo ){
+
         this.name = name;
         this.age = age;
         this.rollNo = rollNo;
